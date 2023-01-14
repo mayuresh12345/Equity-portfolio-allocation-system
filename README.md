@@ -17,39 +17,9 @@ The project's goal is to suggest a mechanism for allocating stocks to portfolios
 
 ● <ins>Volume Traded:</ins> - Volume of trade is the quantity of shares traded in total for the specified security during a trading day. Volume trade is measured on stocks, bonds, ETFs, options, etc.
 
-● EPS: - The ratio of a company’s net profit to the number of outstanding shares is known as Earnings per share (EPS). The higher the EPS the more profitable a company is.
+● <ins>EPS:</ins> - The ratio of a company’s net profit to the number of outstanding shares is known as Earnings per share (EPS). The higher the EPS the more profitable a company is.
 
-● P/E: - The ratio of a company’s share price to the earnings per share is known as price-to-earnings (P/E) ratio.
-
-**Proposed methodology**
-
-● Clustering stocks according to sectors using K-means
-
-● Training three regression-based algorithms namely – Linear Regression, Ridge
-
-Regression, Random Forest for predicting stock prices for different rolling windows
-
-● Selecting best regression algorithm for that quarter using Mean Squared Error for
-
-each rolling window
-
-● Selecting best algorithm from the 4 selected rolling windows
-
-● Picking top 20% stocks with maximum predicted returns from each sector using the
-
-selected regression algorithm
-
-● Recommending and comparing stocks for the next quarter from 11 sectors using
-
-portfolio allocation strategies like min-variance and mean-variance
-
-● Comparing, back testing and selecting allocation strategy based on overall portfolio
-
-value and Sharpe Ratio
-
-
-
-
+● <ins>P/E:</ins> - The ratio of a company’s share price to the earnings per share is known as price-to-earnings (P/E) ratio.
 
 **Dataset**
 
@@ -61,53 +31,22 @@ Yahoo Finance
 
 ● Features considered for regression algorithm – EPS, P/E and volume traded
 
-**Algorithms Used for Proposed Methodology**
 
-**K-Means Clustering:**
+**Proposed methodology**
 
-\1. The algorithm is centroid-based, and sample data points are assigned to the
+1. Clustering stocks according to sectors using K-means
 
-clusters that are closest to the cluster centroid.
+2. Training three regression-based algorithms namely – Linear Regression, Ridge Regression, Random Forest for predicting stock prices for different rolling windows
 
-\2. Reducing the overall distance between each point and its matching cluster
+3. Selecting best regression algorithm for that quarter using Mean Squared Error for each rolling window
 
-centroid is the main objective of the K-Means method.
+4. Selecting best algorithm from the 4 selected rolling windows
 
-\3. Choosing k, or the number of clusters, is the first stage in the procedure. In
+5. Picking top 20% stocks with maximum predicted returns from each sector using the selected regression algorithm
 
-the project, we have chosen k to be 11, the number of various stock sectors.
+6. Recommending and comparing stocks for the next quarter from 11 sectors using portfolio allocation strategies like min-variance and mean-variance
 
-\4. Next, the centroids of k randomly chosen data sample points are chosen, and
-
-for each of the k centroids, a Euclidean distance is calculated. The point is
-
-then assigned to the cluster to which the distance from the cluster centroid is
-
-the smallest.
-
-\5. Again now, we compute the new k centroids of the clustered data and repeat
-
-step 4.
-
-\6. Lastly, we can halt iterations when the centroid is not shifting or when the
-
-cluster's points are remaining constant.
-
-**K-Means on stock prices:**
-
-● Used daily dataset from Jan 2016 – Dec 2018
-
-● Utilized returns and volatility as features to cluster stocks into similar
-
-segments
-
-● Returns: Mean of percentage change of closing prices\*756 (trading days of 3
-
-years)
-
-● Volatility: Standard deviation of percentage change of closing prices
-
-
+7. Comparing, back testing and selecting allocation strategy based on overall portfolio value and Sharpe Ratio
 
 
 
@@ -123,23 +62,9 @@ years)
 
 base metric.
 
-● Two metrics were used, one is Min Variance and the other is Mean Variance
+● Min Variance and Mean Variance were used as metrics
 
-● Min variance is an investing approach that involves mixing stock holdings and
-
-diversifying the stocks.
-
-● Mean variance is the method of evaluating risk, expressed as variance, against
-
-expected return
-
-● Between Min and Mean Variance, Min variance is giving better results. It gives nearly
-
-11% more returns compared to the standard S&P 500 whereas the Mean variance
-
-gives around 10% more returns.
-
-● So, Min variance is used for stock selection in our portfolio.
+● Min variance gives better results. Nearly 11% more returns compared to the standard S&P 500
 
 
 **Future Prospect:**
@@ -157,39 +82,22 @@ risk goes beyond threshold
 
 **References:**
 
-● The Journal of Finance and Data Science, Volume 8, November 2022,
+1. The Journal of Finance and Data Science, Volume 8, November 2022, Pages 35-54- Machine learning portfolio allocation by Michael Pinelisa and David Ruppert
 
-Pages 35-54- Machine learning portfolio allocation by Michael Pinelisa
+2. International Journal of Financial Studies- Markowitz Mean-Variance Portfolio Optimization with Predictive Stock Selection Using Machine Learning by Apichat Chaweewanchon and Rujira Chaysiri
 
-and David Ruppert
-
-● International Journal of Financial Studies- Markowitz Mean-Variance
-
-Portfolio Optimization with Predictive Stock Selection Using Machine
-
-Learning by Apichat Chaweewanchon and Rujira Chaysiri
-
-● [https://medium.com/@nusfintech.ml/ml-optimisation-for-portfolio-allocati](https://medium.com/@nusfintech.ml/ml-optimisation-for-portfolio-allocation-9da34e7fe6b1)
-
-[on-9da34e7fe6b1](https://medium.com/@nusfintech.ml/ml-optimisation-for-portfolio-allocation-9da34e7fe6b1)
+3. [https://medium.com/@nusfintech.ml/ml-optimisation-for-portfolio-allocati](https://medium.com/@nusfintech.ml/ml-optimisation-for-portfolio-allocation-9da34e7fe6b1)
 
 
+4. <https://ieeexplore.ieee.org/abstract/document/8456121>
 
-
-
-● [https://scholarworks.lib.csusb.edu/cgi/viewcontent.cgi?article=1435&con](https://scholarworks.lib.csusb.edu/cgi/viewcontent.cgi?article=1435&context=jitim)
-
-[text=jitim](https://scholarworks.lib.csusb.edu/cgi/viewcontent.cgi?article=1435&context=jitim)
-
-● <https://ieeexplore.ieee.org/abstract/document/8456121>
-
-● [https://www.herbert.miami.edu/_assets/pdfs/faculty-research/business-c](https://www.herbert.miami.edu/_assets/pdfs/faculty-research/business-conferences/machine-learning/yang-bai.pdf)
+5. [https://www.herbert.miami.edu/_assets/pdfs/faculty-research/business-c](https://www.herbert.miami.edu/_assets/pdfs/faculty-research/business-conferences/machine-learning/yang-bai.pdf)
 
 [onferences/machine-learning/yang-bai.pdf](https://www.herbert.miami.edu/_assets/pdfs/faculty-research/business-conferences/machine-learning/yang-bai.pdf)
 
-● https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=3517&cont
+6. https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=3517&cont
 
 ext=cmc\_theses
 
-● https://www.hindawi.com/journals/cin/2022/7588303/
+7. https://www.hindawi.com/journals/cin/2022/7588303/
 
