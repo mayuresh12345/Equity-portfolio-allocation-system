@@ -1,5 +1,5 @@
 ﻿
-**~~Equity portfolio allocation system~~** <br />
+**Equity portfolio allocation system** <br />
 
 Mayuresh Wagh - mwagh@buffalo.edu <br />
 
@@ -10,40 +10,9 @@ Prapti Miglani - praptimi@buffalo.edu <br />
 Hemanth Gorla - hgorla@buffalo.edu <br />
 
 
-
-
-
 **Objective** <br />
 
-The project's goal is to suggest a mechanism for allocating stocks to portfolios. To do
-
-this, we first used the K-Means algorithm to group S&P 500 stocks into several sectors, and
-
-we used stock’s close price to feed the distance metric. Then, in order to forecast stock
-
-prices for four different rolling time frames, we trained three different regression-based
-
-algorithms: Linear Regression, Ridge Regression, and Random Forest. The following step
-
-entails determining the optimal regression algorithm for each window using the test data's
-
-Mean Squared Error before settling on the method that provides the highest support out of
-
-the four chosen rolling windows.
-
-The chosen regression model will then be used to choose the top 20% of stocks from
-
-each sector with the highest anticipated returns. The next step is to choose the top 20% of
-
-companies from a diversified population of stocks from various sectors in an equitable
-
-distribution using portfolio allocation algorithms like mean-variance and min-variance. The
-
-results of our back testing of the stocks chosen by our algorithm are compared to the S&P
-
-500 outcomes as well as the portfolio value and Sharpe Ratio for each of the ways of
-
-portfolio allocation.
+The project's goal is to suggest a mechanism for allocating stocks to portfolios. To do this, we first used the K-Means algorithm to group S&P 500 stocks into several sectors, and we used stock’s close price to feed the distance metric. Then, in order to forecast stock prices for four different rolling time frames, we trained three different regression-based algorithms: Linear Regression, Ridge Regression, and Random Forest. The following step entails determining the optimal regression algorithm for each window using the test data's Mean Squared Error before settling on the method that provides the highest support out of the four chosen rolling windows. The chosen regression model will then be used to choose the top 20% of stocks from each sector with the highest anticipated returns. The next step is to choose the top 20% of companies from a diversified population of stocks from various sectors in an equitable distribution using portfolio allocation algorithms like mean-variance and min-variance. The results of our back testing of the stocks chosen by our algorithm are compared to the S&P 500 outcomes as well as the portfolio value and Sharpe Ratio for each of the ways of portfolio allocation.
 
 **Financial Indicators:**
 
