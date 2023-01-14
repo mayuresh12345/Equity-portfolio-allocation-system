@@ -52,7 +52,7 @@ Yahoo Finance
 
 **Comparison between the origin sector wise distribution and the K-Means result**
 
-![alt-text-1](https://github.com/mayuresh12345/Equity-portfolio-allocation-system/blob/main/Figs/distribution.jpg "title-1") ![alt-text-2](https://github.com/mayuresh12345/Equity-portfolio-allocation-system/blob/main/Figs/sectorwise_clustering.jpg "title-2")
+<img src="https://github.com/mayuresh12345/Equity-portfolio-allocation-system/blob/main/Figs/distribution.jpg" width="425"/> <img src="https://github.com/mayuresh12345/Equity-portfolio-allocation-system/blob/main/Figs/sectorwise_clustering.jpg" width="425"/> 
 
 **Fig:** Quarterly test windows and Mean Squared error for each algorithm for each quarter
 
