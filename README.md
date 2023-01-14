@@ -1,12 +1,9 @@
 ﻿
-**Equity portfolio allocation system** <br />
+# Equity portfolio allocation system 
 
 Mayuresh Wagh - mwagh@buffalo.edu <br />
-
 Manpreet Ajmani - majmani@buffalo.edu <br />
-
 Prapti Miglani - praptimi@buffalo.edu <br />
-
 Hemanth Gorla - hgorla@buffalo.edu <br />
 
 
@@ -16,21 +13,11 @@ The project's goal is to suggest a mechanism for allocating stocks to portfolios
 
 **Financial Indicators:**
 
-● Volume Traded: - Volume of trade is the quantity of shares traded in total for the
+● <u>Volume Traded:</u> - Volume of trade is the quantity of shares traded in total for the specified security during a trading day. Volume trade is measured on stocks, bonds, ETFs, options, etc.
 
-specified security during a trading day. Volume trade is measured on stocks, bonds,
+● EPS: - The ratio of a company’s net profit to the number of outstanding shares is known as Earnings per share (EPS). The higher the EPS the more profitable a company is.
 
-ETFs, options, etc.
-
-● EPS: - The ratio of a company’s net profit to the number of outstanding shares is
-
-known as Earnings per share (EPS). The higher the EPS the more profitable a
-
-company is.
-
-● P/E: - The ratio of a company’s share price to the earnings per share is known as
-
-price-to-earnings (P/E) ratio.
+● P/E: - The ratio of a company’s share price to the earnings per share is known as price-to-earnings (P/E) ratio.
 
 **Proposed methodology**
 
