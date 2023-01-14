@@ -54,7 +54,9 @@ Yahoo Finance
 
 <img src="https://github.com/mayuresh12345/Equity-portfolio-allocation-system/blob/main/Figs/distribution.jpg" width="300"/> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<img src="https://github.com/mayuresh12345/Equity-portfolio-allocation-system/blob/main/Figs/sectorwise_clustering.jpg" width="300"/> 
 
-**Fig:** Quarterly test windows and Mean Squared error for each algorithm for each quarter
+**Quarterly test windows and Mean Squared error for each algorithm for each quarter**
+
+<img src="https://github.com/mayuresh12345/Equity-portfolio-allocation-system/blob/main/Figs/rolling.jpg" width="300"/>
 
 **Fig:** Trade Window(2019-2020) and Predicted return for tech sector in the first quarter
 
