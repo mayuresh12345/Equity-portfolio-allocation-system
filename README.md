@@ -58,17 +58,19 @@ Yahoo Finance
 
 <img src="https://github.com/mayuresh12345/Equity-portfolio-allocation-system/blob/main/Figs/rolling.jpg" width="450"/>
 
-**Fig:** Trade Window(2019-2020) and Predicted return for tech sector in the first quarter
+**Trade Window(2019-2020) and Predicted return for tech sector in the first quarter**
+
+<img src="https://github.com/mayuresh12345/Equity-portfolio-allocation-system/blob/main/Figs/TechSectorPredReturns.jpg" width="450"/>
 
 **Backtesting:**
 
-● Used to compare the performance of our portfolio with the standard S&P 500 as the
-
-base metric.
+● Used to compare the performance of our portfolio with the standard S&P 500 as the base metric.
 
 ● Min Variance and Mean Variance were used as metrics
 
 ● Min variance gives better results. Nearly 11% more returns compared to the standard S&P 500
+
+<img src="https://github.com/mayuresh12345/Equity-portfolio-allocation-system/blob/main/Figs/backtest.jpg" width="450"/>
 
 
 **Future Prospect:**
